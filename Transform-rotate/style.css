@@ -1,0 +1,39 @@
+.box{
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    background-color: #8c1515;
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+    transition: 3s all ease-in;
+}
+.box1{
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    background-color: rgb(19, 158, 77);
+    margin: 100px auto;
+    text-align: center;
+    color: #fff;
+    transition: 3s all ease-in;
+}
+.box2{
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    background-color: rgb(219, 87, 26);
+    margin: 150px auto;
+    text-align: center;
+    color: #fff;
+    transition: 3s all ease-in;
+}
+.box:hover{
+    transform: rotateZ(270deg);
+}
+.box1:hover{
+    transform: rotateX(270deg);
+}
+.box2:hover{
+    transform: rotateY(270deg);
+}

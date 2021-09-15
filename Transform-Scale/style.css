@@ -1,0 +1,17 @@
+.box{
+    margin: 50px;
+    float:left;
+    width: 100px;
+    height: 100px;
+    background-color: #8c1515;
+    margin-right: 10px;
+    color: #fff;
+    text-align: center;
+    padding:20px;
+    transition: 2s all ease-in;
+}
+.scale:hover{
+    transform: scale(1.9);
+    background-color: royalblue;
+}
+
