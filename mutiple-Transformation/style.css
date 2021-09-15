@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(18, 74, 228);
+}
+.box{
+    float: left;
+    margin: 50px;
+    width: 300px;
+    height: 100px;
+    color: #fff;
+    font-size: 12px;
+    background-color: mediumaquamarine;
+    transition: 3.5s all ease-in-out;
+}
+.box:hover{
+    transform:  scale(2.3)
+                skewY(90deg)
+                rotateY(90deg);
+    background-color: rgb(36, 34, 33);
+    box-shadow: 5.2px 10.4px 10.4px;
+}
