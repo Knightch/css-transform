@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkslategrey;
+}
+.box{
+    width: clamp(400px,200px, 100px);
+    margin: 250px auto;
+    height: 30vh;
+    background-color: dodgerblue;
+    transition: 4.5s all ease-in-out;
+    box-shadow: 7.2px 14.4px 14.4px;
+    border-radius: 25px;
+
+}
+.box:hover{
+    transform: rotateX(45deg)
+                rotateY(-45deg)
+                rotateZ(-45deg)
+                scaleX(0.8)
+                scaleY(1.8)
+                scaleZ(-0.5);
+    background-color: lightskyblue;
+    
+
+}
