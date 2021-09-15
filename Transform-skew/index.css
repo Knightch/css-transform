@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: khaki;
+}
+
+p{
+    display: block;
+    float: left;
+    width: 200px;
+    padding: 12px;
+    margin:  30px 60px;
+    background-color: sandybrown;
+    transition: 2s all ease-in-out;
+    
+}
+p:hover{
+    box-shadow: 5.7px 11.4px 11.4px;
+    transform: skewY(1.5deg);
+}
